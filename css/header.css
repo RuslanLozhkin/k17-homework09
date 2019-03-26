@@ -1,0 +1,150 @@
+/*header*/
+    .header{
+        background: #cfe5ef;
+        height: 150px;
+        width: 100%;
+        min-width: 1292px;
+        margin: 0 auto;
+        background: #cfe5ef;
+        box-sizing: border-box;
+        color: #333;
+    }
+    .header__content{
+        margin: 0 20px;
+        max-width: 1292px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .header-logo{
+        float: left;
+        height: 62px;
+        font-style: italic;
+        position: absolute;
+        top: 44px;
+        
+    }
+    .header-logo a{
+        color: #333;
+        text-decoration: none;
+    }
+    .header-logo span{
+        height: 62px;
+        font-size: 36px;
+        position: absolute;
+        top: 7px;
+        left: 100%;
+        padding-left: 6px;
+    }
+/*btn*/
+    .btn{
+        float: right;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: 44px;
+        background: #fff;
+        color: #000;
+        border: 1px;
+        padding: 20px 35px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: #f6f5f9;
+        background: #52359d;
+    }
+    .btn:active{
+        color: #999;
+        background: #333;
+        
+    }
+    .bth::before{
+        content: '';
+        display: block;
+        clear: both;
+    }
+/*nav*/
+    nav{
+        float: left;
+        margin-left: 215px;
+        position: absolute;
+        top: 62px;
+    }
+    .nav{
+        font-size: 20px;
+        font-weight: normal;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .nav a{
+        display: block;
+        text-decoration: none;
+        
+    }
+    .nav-li{
+        float: left;
+        padding: 0 20px;
+        line-height: 32px;
+        position: relative;
+    }
+    .nav-li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nav-sub{
+        display: none;
+        position: absolute;
+        top: 100%;
+        border-color: #fff;
+        border-radius: 0 5px 5px 5px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+        list-style: none;
+        width: 187px;
+        left: 0;
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+    .nav-li:hover{
+        background: #fff;
+    }
+    .nav-li a:hover{
+        color: #52359d;
+        text-decoration: underline;
+        
+    }
+    .nav-li a:active{
+        color: #333333;
+        text-decoration: underline;
+    }
+    .nav-li:hover::before{
+        content: '';
+        position: absolute;
+        border-left: 2px solid #000;
+        height: 20px;
+        left: 0;
+        top: 5px;
+        
+    }
+    .nav-li:hover::after{
+        content: '';
+        position: absolute;
+        border-right: 2px solid #000;
+        height: 20px;
+        right: 0;
+        top: 5px;
+    }
+    .nav-li:hover .nav-sub{
+        display: block;
+        background: #fff;
+    }
+    .nav-sub__li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+    }
