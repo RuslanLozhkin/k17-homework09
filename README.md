@@ -19,4 +19,4 @@
     6. Спозиционировыать и простилизовать элементы формы;
 ## Ссылка на сайт:
 
-<https://ruslanlozhkin.github.io/k17-homework09/>
+<https://ruslanlozhkin.github.io/k17-homework09 target="_blank"/>
