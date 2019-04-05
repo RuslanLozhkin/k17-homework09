@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>BLOG+ UI Kit</title>
+    <title>BLOG+ UI Kit Forms</title>
     <meta name="description" content="Lorem ipsum dolor.">
     <meta name="keywords" content="Lorem ipsum dolor.">
     <meta name="author" content="ruslan lozhkin">
@@ -252,7 +252,7 @@
             <div class="module-grid">
                <div class="module-grid__cell-2">
                    <div class="review-ava">
-                    <a href="#" target="_blank">
+                    <a href="#" >
                         <img src="img/no-avatar-default%20copy.png" alt>
                     </a>
                 </div>
@@ -277,7 +277,7 @@
             <div class="module-grid">
                <div class="module-grid__cell-2">
                    <div class="review-ava">
-                    <a href="#" target="_blank">
+                    <a href="#" >
                         <img src="img/no-avatar-default%20copy.png" alt>
                     </a>
                 </div>
@@ -327,7 +327,7 @@
             <div class="module-grid">
                <div class="module-grid__cell-2">
                    <div class="review-ava">
-                    <a href="#" target="_blank">
+                    <a href="#" >
                         <img src="img/no-avatar-default%20copy.png" alt>
                     </a>
                 </div>
@@ -369,7 +369,7 @@
             </div>
             <div class="gallery-thumb">
                 <div class="gallery-thumb__noimg">
-                    <a href="#" target="_blank">
+                    <a href="#" >
                         <img src="img/no-image.png" alt>
                     </a>
                 </div>
@@ -462,44 +462,92 @@
             <div class="clear"></div>
         </div><!--end gallery-->
         <!--form elements-->
-        <form action="" method="post">
-            <div class="input">
-                <label>
-                    <input type="text">
-                </label>
+        <form action="" method="">
+           <div class="title">
+                <span>Элементы формы</span>
+                <hr>
             </div>
             <div class="input">
-                <label>
-                    <input type="text">
+                <label><span class="form-element-title">Lorem ipsum</span>
+                    <input type="text" placeholder="Input text placeholder">
                 </label>
-                <div class="input__icon">
-                    
+            </div>
+            <div class="input input-icon">
+                <label><span class="form-element-title">Lorem ipsum</span>
+                    <input type="text" placeholder="Input text placeholder">
+                    <span class="icon"></span>
+                </label>
+            </div>
+               
+            <div class="module-grid module-grid--gutters">
+                <div class="select module-grid__cell-6">
+                    <label for="select"><span class="form-element-title">Lorem ipsum</span></label>
+                        <select name="select" id="select">
+                            <option value="lorem0">Lorem ipsum</option>
+                            <option value="lorem1">Lorem ipsum</option>
+                            <option value="lorem2">Lorem ipsum</option>
+                            <option value="lorem3">Lorem ipsum</option>
+                            <option value="lorem4">Lorem ipsum</option>
+                            <option value="lorem5">Lorem ipsum</option>
+                            <option value="lorem6">Lorem ipsum</option>
+                            <option value="lorem7">Lorem ipsum</option>
+                            <option value="lorem8">Lorem ipsum</option>
+                            <option value="lorem9">Lorem ipsum</option>
+                        </select>
+                </div>
+                <div class="select select-icon module-grid__cell-6">
+                    <label for="select1"><span class="form-element-title">Lorem ipsum</span></label>
+                        <select name="select" id="select1">
+                            <option value="lorem0">Lorem0</option>
+                            <option value="lorem1">Lorem1</option>
+                            <option value="lorem2">Lorem2</option>
+                            <option value="lorem3">Lorem3</option>
+                            <option value="lorem4">Lorem4</option>
+                            <option value="lorem5">Lorem5</option>
+                            <option value="lorem6">Lorem6</option>
+                            <option value="lorem7">Lorem7</option>
+                            <option value="lorem8">Lorem8</option>
+                            <option value="lorem9">Lorem9</option>
+                        </select>
+                    <span class="icon"></span>
+                </div> 
+            </div>
+            <div class="module-grid module-grid--gutters">
+                <div class="checkbox module-grid__cell-6">
+                    <span class="form-element-title">Lorem ipsum</span>
+                    <input type="checkbox" name="check" id="ch1">
+                    <label for='ch1'>Lorem ipsum dolor</label>
+                    <input type="checkbox" name="check" id="ch2">
+                    <label for='ch2'>Lorem ipsum dolor</label>
+                    <input type="checkbox" name="check" id="ch3">
+                    <label for='ch3'>Lorem ipsum dolor</label>
+                </div>
+                <div class="radiobtn module-grid__cell-6">
+                    <span class="form-element-title">Lorem ipsum</span>
+                    <input type="radio" name="lorem" id="r1">
+                    <label for='r1'>Lorem ipsum dolor</label>
+                    <input type="radio" name="lorem" id="r2">
+                    <label for='r2'>Lorem ipsum dolor</label>
+                    <input type="radio" name="lorem" id="r3">
+                    <label for='r3'>Lorem ipsum dolor</label>
                 </div>
             </div>
-            <div class="select">
-                <label>
-                    <select name="" id="">
-                        
-                    </select>
-                </label>
-                <div class="select__icon">
-                    
+                <div class="textarea">
+                    <label for='textarea'><span class="form-element-title">Lorem ipsum</span></label>
+                        <textarea name="textarea" id="textarea" cols="82" rows="10" placeholder="Textarea placeholder"></textarea>
                 </div>
-            </div>
-            <div class="textarea">
-                <label>
-                    <textarea name="" id="" cols="30" rows="10">
-                        
-                    </textarea>
-                </label>
-                <div class="textarea__icon">
-                    
+                <div class="textarea textarea-icon">
+                    <label for='textarea-icon'><span class="form-element-title">Lorem ipsum</span></label>
+                        <textarea name="textarea-icon" id="textarea-icon" cols="78" rows="10" placeholder="Textarea placeholder"></textarea>
+                        <span class="icon"></span>
                 </div>
-            </div>
-            <div class="btns">
-                <button></button>
-                <button></button>
-                <button></button>
+            
+            <input class="btns" type="button" value="SUBMIT">
+            <input class="btns" type="button" value="RESET">
+            <input class="btns" type="button" value="BUTTON">
+            <div class="up-file">
+                <input type="button" value="UPLOAD FILE">
+                <span class="icon"></span>
             </div>
         </form>
         <!--end form elements-->
